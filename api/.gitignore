@@ -1,0 +1,32 @@
+# .NET Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.csproj.user
+*.suo
+*.vs
+.vscode/
+
+# Environment-specific files
+.env
+secrets.json
+
+# User Secrets (if using `dotnet user-secrets`)
+**/secrets.json
+
+# appsettings (keep production settings, ignore development secrets)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Entity Framework Migrations (optional)
+Migrations/
+
+# Rider and VS Code settings (optional)
+.idea/
+.vscode/
+*.sln.ide
